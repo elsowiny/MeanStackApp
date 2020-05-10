@@ -1,5 +1,23 @@
 # Meanbean
 
+To run this project, make sure to run ng serve to start the angular project up on localhost:4200
+NEXT, to run the express server, enter 
+''' 
+npm run start:server
+'''
+
+This project also utilizes MongoDB, make sure to create your own cluster and connect it to the application in order to fetch/create posts. The file is located in the backend folder/ app.js.  
+Make sure to enter the correct url to connect to mongodb and your required password.
+
+
+
+# ABOUT
+
+This project runs the MEAN stack, MongoDb, Express, Angular, and Node. All common frameworks built upon javascript. The entire project is ran in javascript making it a very popular stack to use. This project will allow the user to create a post, edit the post, and delete the post. After the post is created, the post is saved on the mongodb database. When the user goes to view the posts/messages on the front page, the server will fetch the data and send it to angular to process and display. It is important that you run the localhost server for angular, as well as the express server and have it setup to connect to your specific mongodb cluster. A live version of this application will be made public in the future. Updates are still to come:) 
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 ## Development server
