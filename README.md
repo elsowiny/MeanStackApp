@@ -1,5 +1,10 @@
 # Meanbean
 
+How to use
+----------
+
+Run "npm install" inside this project folder to install all dependencies.
+
 To run this project, make sure to run ng serve to start the angular project up on localhost:4200
 NEXT, to run the express server, enter 
 ''' 
@@ -43,3 +48,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+# --NOTES--
+```
+v1. 	5/10/2020
+		- Added basic messaging board app with mongoDB as the backend.
+		- Added seperate page to allow for creation of post and viewing of posts seperately
+		- Integrated CSS to allow for "accordian viewing" of each post title,
+					with the click allowing for the content of the post.
+		-Enabled each post to be edited and updated (Both on frontend and server side).
+v2.0 	5/13/2020
+		- Allowed for image uploading to application for each message/post.
+		- Enabled editing an exisiting post to change images.
+```

@@ -4,7 +4,6 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 //MATS IMPORTS
-import { FormsModule} from '@angular/forms';
 import { MatInputModule} from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
@@ -21,6 +20,9 @@ import { HeaderComponent } from './header/header.component';
 import { PostListComponent } from './posts/post-list/post-list.component';
 import { PostsService } from './posts/posts.service';
 import { AppRoutingModule } from './app-routing.module';
+import { ReactiveFormsModule } from "@angular/forms";
+//import { FormsModule} from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
+//    FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     MatInputModule,
     MatCardModule,
