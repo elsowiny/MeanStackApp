@@ -61,4 +61,7 @@ v1. 	5/10/2020
 v2.0 	5/13/2020
 		- Allowed for image uploading to application for each message/post.
 		- Enabled editing an exisiting post to change images.
+
+v2.1 	5/14/2020
+		- Added pagination
 ```
